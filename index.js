@@ -95,7 +95,7 @@ userRouter.get("/:_id/exercises/", (req, res) => {
   });
 });
 
-userRouter.get("/:_id/exercises/logs", (req, res) => {
+userRouter.get("/:_id/logs", (req, res) => {
   const userId = req.params._id;
   let { from , to , limit } = req.query;
 
